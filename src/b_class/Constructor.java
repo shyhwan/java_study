@@ -29,7 +29,7 @@ public class Constructor {
 
         /** User Defined Constructor(사용자 지정 생성자) */
         public Employee(String name, String department) {
-            this.name = name;
+            this(name);
             this.department = department;
         }
     }
