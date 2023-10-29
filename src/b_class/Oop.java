@@ -20,5 +20,14 @@ public class Oop {
          * 클래스에는 Fields(속성), Constructor, Method(행위)로 정의 한다.
          */
         System.out.println("OOP");
+
+        /* 클래스의 선언
+         * new 연산자 실행 시 객체가 Heap 메모리에 생성된다.
+         * JVM의 메모리 구조를 찾아보자.
+         */
+        
+        Object obj = new Object(); // 객체 생성
+        
+        obj.toString(); // 객체의 메소드 호출
     }
 }
