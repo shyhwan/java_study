@@ -2,7 +2,7 @@ package a_datatype;
 
 public class Reference {
     public static void main(String[] args) {
-        /* Reference Type(참조형)
+        /* Reference/non prinitive Type(참조형)
         * 참조형 변수는 특정 객체의 참조 정보를 저장한다.
         * 기본 데이터 타입 이외의 타입을 의미한다.
         * 참조형 변수는 4byte의 크기를 갖으며 인스턴스 객체에 접근할 수 있는 정보를 갖는다.

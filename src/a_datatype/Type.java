@@ -2,7 +2,7 @@ package a_datatype;
 
 public class Type {
     public static void main(String[] args) throws Exception {
-        /* Data Type
+        /* prinitive Data Type(원시/기본형 데이터타입)
          * 자바는 자료형 검사가 엄격한 언어임으로 모든 변수는 자료형을 갖는다.
          * 자료형에 따라 할당하는 메모리 크기가 달라진다.
          * 

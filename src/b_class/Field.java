@@ -9,6 +9,7 @@ public class Field {
      * [static] [final] [접근제어자] [데이터 타입] [필드명(변수명)];
      * 
      */
+
     static class User {
         private String name;
         private int age;
