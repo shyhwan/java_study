@@ -24,8 +24,8 @@ public class Type {
 
         byte a = 0;
         short b = 0;
-        int c = 0;
-        long d = 10L;
+        int c = 0; // java의 기본 정수형 타입이다.
+        long d = 10L; 
 
         c = 1_123_432; // java7부터 '_'로 자릿수 구분이 가능하다. 컴파일러는 밑줄을 무시한다.
         System.out.println(c);
@@ -37,7 +37,7 @@ public class Type {
          * 실수 리터럴은 기본적으로 double 형을 표현하므로 float 타입 값을 표현하려면 접미사 F를 사용한다.
          */
 
-        double e = 0.0;
+        double e = 0.0; // java의 기본 실추형 타입이다.
         float f = 0.9F;
 
         /* Character Type(문자형)

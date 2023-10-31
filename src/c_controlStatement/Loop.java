@@ -14,7 +14,6 @@ public class Loop {
         
         do { } while(b < name.length); // 명령이 무조건 한번 실행해야 될떄 사용한다.
         
-
         for(int a = 0; a < name.length; a++) {
             System.out.println("Name :: " + name[a]);
         } // 횟수가 정해져 있을떄 사용
@@ -23,5 +22,23 @@ public class Loop {
          * 특정 조건을 만족했을 떄 반복문을 종료 하려면 break를 사용한다.
          * 특정 조건을 중지하고 다음 반복을 실행 하려면 continue를 사용한다.
          */
+        
+        
+        /*
+        for(int a = 0; a < 5; a++) {
+            if(a == 3) {
+                break;
+            }
+            System.out.println("Number :: " + a);
+        }
+        
+        for(int a = 0; a < 5; a++) {
+            if(a == 3) {
+                continue;
+            }
+            System.out.println("Number :: " + a);
+        }        
+        */
+        
     }
 }

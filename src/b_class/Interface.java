@@ -18,7 +18,12 @@ public class Interface {
      * 자식클래스는 부모클래스의 protected, public 구성요소에 대해 this 접근이 가능하다.
      */
         
-    /* Interface(인터페이스)
+    /* Interface(인터페이스) - 다형성
+     * 인터페이스는 일반적으로 추상메소드만 가진다.
+     * 특정 클래스가 인터페이스를 구현하기 위해서는 implements 키워드를 통해 구현한다.
+     * 상속과 달리 인터페이스는 하나의 클래스가 둘 이상의 인터페이스를 동시에 구현할 수 있다.
+     * 인터페이스를 통해 설계와 구현을 완전히 분리 할 수 있다.
+     * 
      * 인터페이스란 서로 다른 두 시스템, 장치, 소프트웨어 따위를 서로 이어주는 부분 또는 그런 접속 장치 라고 정의할 수 있는데,
      * 객체지향 설계에서 인터페이스는 어떤 객체의 역할만을 정의하여 객체들 간의 관계를 보다 유연하게 연결하는 역할을 담당한다.
      * 객체지향의 인터페이스는 어떤 객체가 수행해야 하는 책심적인 역할만을 규정하고, 실제적인 구현은 해당 인터페이스를 구현하는 
@@ -36,7 +41,13 @@ public class Interface {
         public void addUser(User user);
     }
 
-    static class UserServiceImpl implements UserService {
+    static interface AdminService {
+        public String getAuth();
+
+        public void addAdmin(User user);
+    }
+
+    static class UserServiceImpl implements UserService, AdminService {
         
         @Override
         public String getName() {
@@ -49,5 +60,17 @@ public class Interface {
         public void addUser(User user) {
             // db 유저 데이터 입력
         }
+
+        @Override
+        public String getAuth() {
+            return "";
+        }
+
+        @Override
+        public void addAdmin(User user) {
+            // admin 입력
+        }
+
+
     }    
 }

@@ -1,5 +1,7 @@
 package b_class;
 
+import javafx.scene.effect.Light.Point;
+
 public class Overriding {
         public static void main(String[] args) {
             /* Override(메소드 재정의)
@@ -13,12 +15,12 @@ public class Overriding {
 
              user.userAuth(); // 사용자 입니다.
              admin.userAuth(); // 사용자 입니다. 관리자 입니다.
-
             }
 
     static class User {
         public void userAuth() {
             System.out.println("사용자 입니다.");
+            System.out.println("================");
         }
     }
 
