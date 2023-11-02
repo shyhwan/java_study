@@ -7,6 +7,11 @@ public class Generic {
          * 제네릭을 사용하면 데이터를 저장하는 시점에 어떤 테이터를 저장할 것인지 명시할 수 있다.
          * 이를 통해 사용하고자 하는 데이터의 타입을 명확히 선언할 수 있고, 정확한 데이터의 사용 여부를 컴파일 시점에 확인 할 수 있다.
          */
+
+         //Box1 b1 = new Box1(String d);
+        Integer t = new Integer(0);
+
+         Box2<Integer> b2 = new Box2<>(t);
     }
 
     static class Box1 {

@@ -17,6 +17,10 @@ public class Reference {
         user.name = "ddd";
         
         System.out.println(user.name);
+
+        String[] s = {"1","2"};
+
+        System.out.println(s);
     }
     
     static class User {

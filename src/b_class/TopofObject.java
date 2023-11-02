@@ -1,7 +1,5 @@
 package b_class;
 
-import javafx.scene.effect.Light.Point;
-
 public class TopofObject {
     public static void main(String[] args) {
         /* Object

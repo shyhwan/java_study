@@ -31,6 +31,7 @@ public class Loop {
             }
             System.out.println("Number :: " + a);
         }
+        */
         
         for(int a = 0; a < 5; a++) {
             if(a == 3) {
@@ -38,7 +39,6 @@ public class Loop {
             }
             System.out.println("Number :: " + a);
         }        
-        */
         
     }
 }

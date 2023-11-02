@@ -1,7 +1,5 @@
 package b_class;
 
-import javafx.scene.effect.Light.Point;
-
 public class Overriding {
         public static void main(String[] args) {
             /* Override(메소드 재정의)

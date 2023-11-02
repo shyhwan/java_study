@@ -26,5 +26,19 @@ public class Collection {
          * Map | 키와 그에 대응하는 객체들로 이루어진 집합이다.
          */
 
+        /* Hash     |
+         * unordered, unsorted
+         * uew hoshcode()
+         * 순서도 없고, 정렬도 없다.
+         *  
+         * Linked   |
+         * orderd, unsorted
+         * 순서는 확실
+         *  
+         * Tree     |
+         * sorted
+         * 정렬은 확실
+         */
+
     }
 }

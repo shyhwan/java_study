@@ -9,7 +9,7 @@ public class Constructor {
      * 생성자도 모든 접근제어자를 적용할 수 있으며, 일반적으로는 public 접근제어자가 적용된다.
      */
     static class Employee {
-        private String name;
+        static private String name;
         private String department;
 
         /*
