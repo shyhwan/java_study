@@ -13,11 +13,10 @@ public class TryCatch {
          InputStream s = System.in;
 
          try {
-             s.read();
-         } catch(IOException e) {
-            e.getMessage();
-         } finally {
-
-         }
+            s.read();
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
     }
 }

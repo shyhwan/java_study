@@ -1,9 +1,5 @@
 package f_exception;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-
 public class Exception01 {
     public static void main(String[] args) throws Exception {
         /* Exception(예외) & error(오류)

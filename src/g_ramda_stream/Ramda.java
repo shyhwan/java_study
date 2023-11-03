@@ -3,6 +3,8 @@ package g_ramda_stream;
 import java.util.ArrayList;
 import java.util.List;
 
+import java.util.Iterator;
+
 public class Ramda {
     public static void main(String[] args) throws Exception {
         /* Ramda
@@ -16,6 +18,11 @@ public class Ramda {
         list.add("Java");
         list.add("null");
         list.add("Study");
+
+        Iterator<String> iter = list.iterator();
+        while(iter.hasNext()) {
+            String s = iter.next();
+        }
 
         // list.forEach( (String str) -> { System.out.println(str);} );
         // list.forEach( (str) -> { System.out.println(str);} );
